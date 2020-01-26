@@ -87,3 +87,8 @@ intcode = [int(num) for num in instructions]
 extra = [0 for n in range(0, 50000)]
 intcode.extend(extra)
 print('Part One: {}'.format(runTest(intcode, 1)))
+
+intcode = [int(num) for num in instructions]
+extra = [0 for n in range(0, 50000)]
+intcode.extend(extra)
+print('Part Two: {}'.format(runTest(intcode, 2)))
